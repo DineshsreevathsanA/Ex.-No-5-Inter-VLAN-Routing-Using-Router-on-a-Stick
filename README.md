@@ -17,7 +17,8 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/106ee5fc-6bd8-49e0-b722-bd395e2dda6f" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -87,20 +88,25 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
-<img width="1920" height="1080" alt="Screenshot (626)" src="https://github.com/user-attachments/assets/dd267415-549f-4c0d-b8c8-9adcc6e2f34f" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/186711f8-abbd-4cc3-b07d-d70c48987756" />
+
 
 •	Router subinterface configuration<br>
-<img width="1920" height="1080" alt="Screenshot (624)" src="https://github.com/user-attachments/assets/7b19e398-648b-4bbd-afa0-9838b54dd3d9" />
+<img width="1600" height="998" alt="image" src="https://github.com/user-attachments/assets/558dd793-ea08-48a7-ac27-e075663d7f4e" />
 
-•	<img width="1920" height="1080" alt="Screenshot (625)" src="https://github.com/user-attachments/assets/dc3f4512-2b24-46c9-aeea-079a24ba097c" />
-PC IP settings<br>
+
+•PC IP settings<br>
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/c6e0c019-72d1-4b49-9d80-01177ec51663" />
+
 
 •	Successful ping between PCs in different VLANs after routing<br>
 
-<img width="1920" height="1080" alt="Screenshot (623)" src="https://github.com/user-attachments/assets/a43839be-32de-458d-829c-a4aa0956b8e5" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/094031c5-a49c-45e0-a15e-3ecafc6af249" />
+
 
 •	Successful ping between PCs in the same VLAN<br>
-<img width="1920" height="1080" alt="Screenshot (622)" src="https://github.com/user-attachments/assets/25192a93-8ae0-4009-89fc-5eaf3298f684" />
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/b78a9d34-a916-4148-be1d-77271fa5f99a" />
+
 
 ________________________________________
 # Result
